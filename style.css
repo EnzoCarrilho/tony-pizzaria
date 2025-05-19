@@ -343,6 +343,7 @@ footer{
     font-style: italic;
 }
 
+/*TABLET*/
 @media(max-width: 1024px){
     header{
         position: absolute;
@@ -436,5 +437,28 @@ footer{
 
 
 }
-
+/*MOBILE*/
+@media(max-width: 768px){
+    header{
+        padding: 0;
+        top: 16px;
+        
+    }
+    
+    .home{
+        position: static;
+    }
+    .hero{
+        justify-content: end;
+    }
+    .hero img{
+        display: none;
+    }
+    hero h2{
+        
+        width: 287px;
+        height: 192px;
+        
+    }
+}
           
