@@ -19,6 +19,9 @@ ul,ol,li{
     --default-padding: 0px 80px;
 }
 
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: "Poppins", sans-serif;
 }
@@ -33,6 +36,7 @@ header{
     align-items: center;
     padding: var(--default-padding);
     z-index: 999;
+    background-color: #fff5;
 }
 
 header menu{
@@ -339,3 +343,4 @@ footer{
     font-style: italic;
 }
 
+          
