@@ -442,23 +442,77 @@ footer{
     header{
         padding: 0;
         top: 16px;
-        
     }
-    
+    header img{
+       src: "./img/tony-icon-branco.svg";
+    }
+    header menu{
+        height: 64px;
+        gap: 10px;
+        justify-content: space-between;
+    }
     .home{
-        position: static;
+        background-color: var(--primary-color);
+        background-image: url(./img/background-mobile.png);
+
+        justify-content: center;
+
     }
     .hero{
-        justify-content: end;
-    }
-    .hero img{
-        display: none;
-    }
-    hero h2{
+        color: #fff;
+        padding: 0;
+        flex-direction: row;
         
+    }
+    .hero h2{
         width: 287px;
-        height: 192px;
-        
+        font-size: 2rem;
     }
+    .hero span{
+        background-color: #fff;
+    }
+   .hero img{
+        display: none;
+   }
+
+   .opcoes-cardapio{
+        align-items: center;
+   }
+   .titulo-opcoes a{
+        display: none;
+   }
+   .container-produtos{
+        width: 100%;
+   }
+   .container-produtos :nth-child(1){
+        display: none;
+   }
+
+   .cardapio{
+        padding: 0;
+   }
+
+   .container-produtos .pizza.bebida :nth-child(){
+    display: none;
+   }
+   
+   .servicos{
+    padding: 0;
+    background-color: #FEF2E7;
+   }
+   .servico-card p{
+    display: none;
+   }
+
+
+
+   .contatos-item:nth-last-child(3){
+    display: none;
+   }
+   .contatos-item:nth-last-child(2){
+        display: inline;
+   }
+ 
+
 }
           
